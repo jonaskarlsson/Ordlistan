@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d607f0bd-1cf7-412d-810a-671a3c6145ca" name="Jonas@MARIELL-DATOR 2012-06-12 22:14:27" runUser="MariEll-Dator\Jonas" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e66d71a8-8dc2-4989-b9b9-3304a6d1d01a">
+    <Deployment runDeploymentRoot="Jonas_MARIELL-DATOR 2012-06-12 22_14_27">
+      <DeploymentItem filename="C:\Users\Jonas\Documents\Ordlistan\Ordlistan\bin\Ordlistan.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-12T22:14:27.1291655+02:00" queuing="2012-06-12T22:14:27.4511839+02:00" start="2012-06-12T22:14:27.5001867+02:00" finish="2012-06-12T22:14:28.5312457+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Contact" storage="c:\users\jonas\documents\ordlistan\ordlistan.tests\bin\debug\ordlistan.tests.dll" id="eb55eff3-4215-38bb-5b6f-a0b332a91853">
+      <Execution id="4878fecb-2cff-4c27-9ea7-8ae9b587f1ac" />
+      <TestMethod codeBase="C:/Users/Jonas/Documents/Ordlistan/Ordlistan.Tests/bin/Debug/Ordlistan.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ordlistan.Tests.Controllers.HomeControllerTest, Ordlistan.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\jonas\documents\ordlistan\ordlistan.tests\bin\debug\ordlistan.tests.dll" id="6330e36a-936c-11bf-59e7-04aa288c5222">
+      <Execution id="41263455-e739-48b2-96cf-164d1bb0dbd0" />
+      <TestMethod codeBase="C:/Users/Jonas/Documents/Ordlistan/Ordlistan.Tests/bin/Debug/Ordlistan.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ordlistan.Tests.Controllers.HomeControllerTest, Ordlistan.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\jonas\documents\ordlistan\ordlistan.tests\bin\debug\ordlistan.tests.dll" id="c6e3243b-397b-81e8-3b1d-1e826c4e7b7e">
+      <Execution id="45539124-0c99-4b0b-9d62-348fb6436a2d" />
+      <TestMethod codeBase="C:/Users/Jonas/Documents/Ordlistan/Ordlistan.Tests/bin/Debug/Ordlistan.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ordlistan.Tests.UnitTest1, Ordlistan.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\jonas\documents\ordlistan\ordlistan.tests\bin\debug\ordlistan.tests.dll" id="3388a814-b4c7-4302-31e4-ed9db0c3e569">
+      <Execution id="2abcd30f-19c9-4bb7-a471-2398f31e4557" />
+      <TestMethod codeBase="C:/Users/Jonas/Documents/Ordlistan/Ordlistan.Tests/bin/Debug/Ordlistan.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ordlistan.Tests.Controllers.HomeControllerTest, Ordlistan.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3388a814-b4c7-4302-31e4-ed9db0c3e569" executionId="2abcd30f-19c9-4bb7-a471-2398f31e4557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6330e36a-936c-11bf-59e7-04aa288c5222" executionId="41263455-e739-48b2-96cf-164d1bb0dbd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6e3243b-397b-81e8-3b1d-1e826c4e7b7e" executionId="45539124-0c99-4b0b-9d62-348fb6436a2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb55eff3-4215-38bb-5b6f-a0b332a91853" executionId="4878fecb-2cff-4c27-9ea7-8ae9b587f1ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2abcd30f-19c9-4bb7-a471-2398f31e4557" testId="3388a814-b4c7-4302-31e4-ed9db0c3e569" testName="Index" computerName="MARIELL-DATOR" duration="00:00:00.1364404" startTime="2012-06-12T22:14:27.5681906+02:00" endTime="2012-06-12T22:14:28.2232281+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2abcd30f-19c9-4bb7-a471-2398f31e4557">
+    </UnitTestResult>
+    <UnitTestResult executionId="41263455-e739-48b2-96cf-164d1bb0dbd0" testId="6330e36a-936c-11bf-59e7-04aa288c5222" testName="About" computerName="MARIELL-DATOR" duration="00:00:00.0076769" startTime="2012-06-12T22:14:28.2272283+02:00" endTime="2012-06-12T22:14:28.2442293+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41263455-e739-48b2-96cf-164d1bb0dbd0">
+    </UnitTestResult>
+    <UnitTestResult executionId="45539124-0c99-4b0b-9d62-348fb6436a2d" testId="c6e3243b-397b-81e8-3b1d-1e826c4e7b7e" testName="TestMethod1" computerName="MARIELL-DATOR" duration="00:00:00.0004958" startTime="2012-06-12T22:14:28.2562299+02:00" endTime="2012-06-12T22:14:28.2642304+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45539124-0c99-4b0b-9d62-348fb6436a2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4878fecb-2cff-4c27-9ea7-8ae9b587f1ac" testId="eb55eff3-4215-38bb-5b6f-a0b332a91853" testName="Contact" computerName="MARIELL-DATOR" duration="00:00:00.0035964" startTime="2012-06-12T22:14:28.2762311+02:00" endTime="2012-06-12T22:14:28.2872317+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4878fecb-2cff-4c27-9ea7-8ae9b587f1ac">
+    </UnitTestResult>
+  </Results>
+</TestRun>
