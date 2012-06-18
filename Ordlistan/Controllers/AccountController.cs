@@ -38,7 +38,7 @@ namespace Ordlistan.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                    ModelState.AddModelError("", "Användarnamnet eller lösenordet är felaktigt.");
                 }
             }
 
