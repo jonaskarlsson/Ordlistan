@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Ordlistan.Models;
 
 namespace Ordlistan.Controllers
 {
@@ -27,6 +28,22 @@ namespace Ordlistan.Controllers
             ViewBag.Message = "Your quintessential contact page.";
 
             return View();
+        }
+
+        [HttpPost]
+        public JsonResult HittaGutnisktUppslagsord(string searchText, int maxResults)
+        {
+            GutnisktUppslagsordRepository repository = new GutnisktUppslagsordRepository();
+            var result = repository.HittaGutnisktUppslagsord(searchText, maxResults);
+            return Json(result);
+        }
+
+        [HttpPost]
+        public JsonResult HittaSvenskBetydelse(string searchText, int maxResults)
+        {
+            SvenskBetydelseRepository repository = new SvenskBetydelseRepository();
+            var result = repository.HittaSvenskBetydelse(searchText, maxResults);
+            return Json(result);
         }
     }
 }

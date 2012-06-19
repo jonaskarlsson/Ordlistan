@@ -130,6 +130,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\GutnisktUppslagsord.cs" />
+    <Compile Include="Models\GutnisktUppslagsordRepository.cs" />
+    <Compile Include="Models\SvenskBetydelseRepository.cs" />
+    <Compile Include="Models\SvenskBetydelse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
