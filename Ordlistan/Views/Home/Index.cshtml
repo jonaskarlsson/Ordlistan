@@ -47,7 +47,21 @@
 			"Scheme"
 		];
 			$("#tags").autocomplete({
-				source: availableTags
+				source: function (request, response) {
+					$.ajax({
+						url: "/home/HittaGutnisktUppslagsord", type: "POST", dataType: "json",
+						data: { searchText: request.term, maxResults: 10 },
+						success: function (data) {
+							response($.map(data, function (item) {
+							    return { label: item.Uppslagsord, value: item.Uppslagsord, id: item.Id }
+							}))
+						}
+					})
+				},
+				select: function (event, ui) {
+					alert(ui.item ? ("You picked '" + ui.item.label + "' with an ID of " + ui.item.id)
+						: "Nothing selected, input was " + this.value);
+				}
 			});
 		});
 	</script>
