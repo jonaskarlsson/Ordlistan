@@ -72,3 +72,5 @@ C:\Users\Jonas\Documents\Ordlistan\Ordlistan\bin\System.Web.WebPages.Razor.xml
 C:\Users\Jonas\Documents\Ordlistan\Ordlistan\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Jonas\Documents\Ordlistan\Ordlistan\obj\Debug\Ordlistan.dll
 C:\Users\Jonas\Documents\Ordlistan\Ordlistan\obj\Debug\Ordlistan.pdb
+C:\Users\Jonas\Documents\Ordlistan\Ordlistan\bin\MySql.Data.dll
+C:\Users\Jonas\Documents\Ordlistan\Ordlistan\bin\MySql.Web.dll
